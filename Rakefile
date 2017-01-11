@@ -41,3 +41,7 @@ Bundler::GemHelper.install_tasks
 task :release do
 	sh "git release"
 end
+
+task :version do
+  puts GVB.version
+end

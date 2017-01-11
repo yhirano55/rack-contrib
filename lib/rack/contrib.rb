@@ -4,7 +4,7 @@ require 'git-version-bump'
 module Rack
   module Contrib
     def self.release
-      GVB.version
+      "1.4.0.2"
     end
   end
 
